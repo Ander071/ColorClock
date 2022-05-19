@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+html {
+	font-size: 20px;
+}
+
+html,
+body {
+	font-family: 'Montserrat';
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+main {}
+
+main,
+.wrapper_clock,
+.container,
+.clock {
+	height: 100%;
+	width: 100%;
+}
+
+.clock {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.clock_time {
+	font-size: 4rem;
+	color: #D9DADF;
+}
