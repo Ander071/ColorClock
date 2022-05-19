@@ -10,7 +10,6 @@ let nh = 1;
 let text_s = 0;
 let text_m = 0;
 let text_h = 0;
-let i = 30;
 
 setInterval(timer, 1000);
 
@@ -18,8 +17,7 @@ setInterval(timer, 1000);
 
 function timer() {
 
-	let time = new Date(2022, 5, 19, 11, 59, i, 0);
-	i++;
+	let time = new Date();
 	let h = time.getHours().toString();
 	let m = time.getMinutes().toString();
 	let s = time.getSeconds().toString();
